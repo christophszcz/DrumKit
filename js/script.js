@@ -5,4 +5,14 @@ window.addEventListener('keydown', function(e){
 	audio.currentTime = 0; //this will rewind to the start.
 	if(!audio) return;
 	audio.play();
+	key.classList.add('playing');
 });
+
+function removeTransition(e){
+	if (e.propertyName !== 'transform') return;
+	console.log(e.propertyName);
+	this.classList.remove('playing');
+}
+
+const keys = document.querySelectorAll('.key'); 
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
