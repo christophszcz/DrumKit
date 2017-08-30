@@ -1,4 +1,4 @@
-## Drum Kit 
-A vanilla JavaScript webpage that plays a sound for each corresponding key.<br /> 
+## Drum Kit
+A vanilla JavaScript webpage that plays a sound for each corresponding key.<br />
 
-<a href="http://codepen.io/cjszcz17/pen/woVzQq" target="_blank">http://codepen.io/cjszcz17/pen/woVzQq</a>
+<a href="https://christophszcz.github.io/drumKit/" target="_blank">https://christophszcz.github.io/drumKit</a>
